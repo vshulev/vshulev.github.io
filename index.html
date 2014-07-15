@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+
+<!--
+░░░░░░░░▄▄▄███░░░░░░░░░░░░░░░░░░░░
+░░░▄▄██████████░░░░░░░░░░░░░░░░░░░
+░███████████████░░░░░░░░░░░░░░░░░░
+░▀███████████████░░░░░▄▄▄░░░░░░░░░
+░░░███████████████▄███▀▀▀░░░░░░░░░
+░░░░███████████████▄▄░░░░░░░░░░░░░
+░░░░▄████████▀▀▄▄▄▄▄░▀░░░░░░░░░░░░
+▄███████▀█▄▀█▄░░█░▀▀▀░█░░▄▄░░░░░░░
+▀▀░░░██▄█▄░░▀█░░▄███████▄█▀░░░▄░░░
+░░░░░█░█▀▄▄▀▄▀░█▀▀▀█▀▄▄▀░░░░░░▄░▄█
+░░░░░█░█░░▀▀▄▄█▀░█▀▀░░█░░░░░░░▀██░
+░░░░░▀█▄░░░░░░░░░░░░░▄▀░░░░░░▄██░░
+░░░░░░▀█▄▄░░░░░░░░▄▄█░░░░░░▄▀░░█░░
+░░░░░░░░░▀███▀▀████▄██▄▄░░▄▀░░░░░░
+░░░░░░░░░░░█▄▀██▀██▀▄█▄░▀▀░░░░░░░░
+░░░░░░░░░░░██░▀█▄█░█▀░▀▄░░░░░░░░░░
+░░░░░░░░░░█░█▄░░▀█▄▄▄░░█░░░░░░░░░░
+░░░░░░░░░░█▀██▀▀▀▀░█▄░░░░░░░░░░░░░
+░░░░░░░░░░░░▀░░░░░░░░░░░▀░░░░░░░░░
+-->
+
+	<head>
+
+		<title>Hello</title>
+
+		<style>
+			.wrapper {
+			    width: 100%;
+			    height: auto;
+			    bottom: 0px;
+			    top: 0px;
+			    left: 0;
+			    position: absolute;
+			}
+			.center {
+			    position: absolute;
+			    width: 40%;
+			    height: 40%;
+			    top: 50%;
+			    left: 50%;
+			    margin-top: -20%;
+			    margin-left: -20%;
+			}
+
+			h1 {
+				text-align: center;
+				font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-weight: bold;
+				font-size: 8em;
+				color: #FFF;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		
+		<div class="wrapper">
+			<div class="center">
+				<h1>Hi ;)</h1>
+			</div>
+		</div>
+
+	</body>
+
+	<!-- Random color :D -->
+	<script>
+		/*Random background color- by javascriptkit.com
+		Visit JavaScript Kit (http://javascriptkit.com) for script
+		Credit must stay intact for use*/
+
+		//Enter list of bgcolors:
+		var bgcolorlist=new Array("#2AF596", "#FF6A19", "#19C6FF", "#9019FF", "#F0E930");
+
+		document.body.style.background=bgcolorlist[Math.floor(Math.random()*bgcolorlist.length)];
+	</script>
+
+</html>
